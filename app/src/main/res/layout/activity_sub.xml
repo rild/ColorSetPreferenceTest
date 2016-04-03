@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="4dp"
+    tools:context="rimp.rild.com.android.colorsettest.SubActivity">
+
+    <TextView
+        android:id="@+id/current_color_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="現在の色は ... 色です" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select your color"
+        android:textStyle="bold"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/black_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_black"
+        android:text="black"
+        android:textStyle="bold"
+        android:layout_margin="4dp"
+        android:textColor="@color/inverse_text" />
+
+    <Button
+        android:id="@+id/blue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_blue"
+        android:text="blue"
+        android:textStyle="bold"
+        android:layout_margin="4dp"
+        android:textColor="@color/inverse_text" />
+
+    <Button
+        android:id="@+id/red_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_red"
+        android:text="red"
+        android:textStyle="bold"
+        android:layout_margin="4dp"
+        android:textColor="@color/inverse_text" />
+</LinearLayout>
